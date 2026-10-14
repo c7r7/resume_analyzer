@@ -7,7 +7,7 @@ from google import genai
 load_dotenv()
 
 PING_PROMPT = "Reply with a short greeting confirming you are reachable."
-GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_MODEL = "gemini-3.8-flash"
 
 app = FastAPI(title="Resume Analyzer API")
 
